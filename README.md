@@ -1,4 +1,4 @@
 Text-Predictor
 ==============
 
-Computes the co-occurrence rate between a target word and each phrase in a collection of documents. Each text is processed on separate Amazon virtual machines via MapReduce. Written in Java.
+It analyzes a corpus of documents to find the co-occurrence rates between words and phrases. The Hadoop MapReduce framework is used to process documents in parallel on many Amazon EC2 virtual machines. I wrote this with the help of a skeleton in Java.
